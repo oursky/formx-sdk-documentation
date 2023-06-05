@@ -1,0 +1,7 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+module:AndroidLib
+ai.formx.mobile.sdk
+module:PortableLib
+ai.formx.mobile.sdk

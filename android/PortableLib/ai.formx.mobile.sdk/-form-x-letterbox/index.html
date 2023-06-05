@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>FormXLetterbox</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../";</script>    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+<a href="../../../index.html">
+<span>FormX Mobile SDK</span>            </a>    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageids="PortableLib::ai.formx.mobile.sdk/FormXLetterbox///PointingToDeclaration//1509904464">
+  <div class="breadcrumbs"><a href="../../index.html">PortableLib</a><span class="delimiter">/</span><a href="../index.html">ai.formx.mobile.sdk</a><span class="delimiter">/</span><span class="current">FormXLetterbox</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Form</span><wbr><span><span>XLetterbox</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":PortableLib:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">FormXLetterbox</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>sourceWidth<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>sourceHeight<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>targetWidth<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>targetHeight<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>scale<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a><span class="token operator"> = </span><span class="token constant">0.0f</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>offsetX<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>offsetY<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>scaledWidth<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>scaledHeight<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span></span></span><span class="token punctuation">)</span></div><p class="paragraph">FormXLetterbox contains the information of how to letterbox a source image to a target image</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+    <div class="tabs-section-body">
+      <h2 class="tabbedcontent">Constructors</h2>
+      <div class="table" data-togglable="Constructors"><a data-name="101751584%2FConstructors%2F1509904464" anchor-label="FormXLetterbox" id="101751584%2FConstructors%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a>
+        <div class="table-row" data-filterable-current=":PortableLib:dokkaHtmlPartial/main" data-filterable-set=":PortableLib:dokkaHtmlPartial/main">
+          <div class="main-subrow keyValue TabbedContent">
+            <div class=""><span class="inline-flex">
+                <div><a href="-form-x-letterbox.html"><span>Form</span><wbr><span><span>XLetterbox</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="101751584%2FConstructors%2F1509904464"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":PortableLib:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-form-x-letterbox.html"><span class="token function">FormXLetterbox</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">sourceWidth<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span><span class="token punctuation">, </span></span><span class="parameter ">sourceHeight<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span><span class="token punctuation">, </span></span><span class="parameter ">targetWidth<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span><span class="token punctuation">, </span></span><span class="parameter ">targetHeight<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span><span class="token punctuation">, </span></span><span class="parameter ">scale<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a><span class="token operator"> = </span><span class="token constant">0.0f</span><span class="token punctuation">, </span></span><span class="parameter ">offsetX<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span><span class="token punctuation">, </span></span><span class="parameter ">offsetY<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span><span class="token punctuation">, </span></span><span class="parameter ">scaledWidth<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span><span class="token punctuation">, </span></span><span class="parameter ">scaledHeight<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span></span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Types</h2>
+      <div class="table" data-togglable="Types"><a data-name="1755692449%2FClasslikes%2F1509904464" anchor-label="Companion" id="1755692449%2FClasslikes%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a>
+        <div class="table-row" data-filterable-current=":PortableLib:dokkaHtmlPartial/main" data-filterable-set=":PortableLib:dokkaHtmlPartial/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-companion/index.html"><span><span>Companion</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1755692449%2FClasslikes%2F1509904464"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":PortableLib:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="-companion/index.html">Companion</a></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Properties</h2>
+      <div class="table" data-togglable="Properties"><a data-name="1970275605%2FProperties%2F1509904464" anchor-label="offsetX" id="1970275605%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a>
+        <div class="table-row" data-filterable-current=":PortableLib:dokkaHtmlPartial/main" data-filterable-set=":PortableLib:dokkaHtmlPartial/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="offset-x.html"><span>offset</span><wbr><span><span>X</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1970275605%2FProperties%2F1509904464"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":PortableLib:dokkaHtmlPartial/main"><a data-name="1970275605%2FProperties%2F1509904464" anchor-label="offsetX" id="1970275605%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="offset-x.html">offsetX</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span></div><div class="brief "><a data-name="1970275605%2FProperties%2F1509904464" anchor-label="offsetX" id="1970275605%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a><p class="paragraph">the offset of the source image to the target image in x direction</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2001295412%2FProperties%2F1509904464" anchor-label="offsetY" id="2001295412%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a>
+        <div class="table-row" data-filterable-current=":PortableLib:dokkaHtmlPartial/main" data-filterable-set=":PortableLib:dokkaHtmlPartial/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="offset-y.html"><span>offset</span><wbr><span><span>Y</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2001295412%2FProperties%2F1509904464"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":PortableLib:dokkaHtmlPartial/main"><a data-name="2001295412%2FProperties%2F1509904464" anchor-label="offsetY" id="2001295412%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="offset-y.html">offsetY</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span></div><div class="brief "><a data-name="2001295412%2FProperties%2F1509904464" anchor-label="offsetY" id="2001295412%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a><p class="paragraph">the offset of the source image to the target image in y direction</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1991057200%2FProperties%2F1509904464" anchor-label="scale" id="-1991057200%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a>
+        <div class="table-row" data-filterable-current=":PortableLib:dokkaHtmlPartial/main" data-filterable-set=":PortableLib:dokkaHtmlPartial/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="scale.html"><span><span>scale</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1991057200%2FProperties%2F1509904464"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":PortableLib:dokkaHtmlPartial/main"><a data-name="-1991057200%2FProperties%2F1509904464" anchor-label="scale" id="-1991057200%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="scale.html">scale</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a><span class="token operator"> = </span><span class="token constant">0.0f</span></div><div class="brief "><a data-name="-1991057200%2FProperties%2F1509904464" anchor-label="scale" id="-1991057200%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a><p class="paragraph">the scale factor of the source image to the target image</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1793310977%2FProperties%2F1509904464" anchor-label="scaledHeight" id="-1793310977%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a>
+        <div class="table-row" data-filterable-current=":PortableLib:dokkaHtmlPartial/main" data-filterable-set=":PortableLib:dokkaHtmlPartial/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="scaled-height.html"><span>scaled</span><wbr><span><span>Height</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1793310977%2FProperties%2F1509904464"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":PortableLib:dokkaHtmlPartial/main"><a data-name="-1793310977%2FProperties%2F1509904464" anchor-label="scaledHeight" id="-1793310977%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="scaled-height.html">scaledHeight</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span></div><div class="brief "><a data-name="-1793310977%2FProperties%2F1509904464" anchor-label="scaledHeight" id="-1793310977%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a><p class="paragraph">the scaled height of the source image</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1403713266%2FProperties%2F1509904464" anchor-label="scaledWidth" id="-1403713266%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a>
+        <div class="table-row" data-filterable-current=":PortableLib:dokkaHtmlPartial/main" data-filterable-set=":PortableLib:dokkaHtmlPartial/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="scaled-width.html"><span>scaled</span><wbr><span><span>Width</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1403713266%2FProperties%2F1509904464"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":PortableLib:dokkaHtmlPartial/main"><a data-name="-1403713266%2FProperties%2F1509904464" anchor-label="scaledWidth" id="-1403713266%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="scaled-width.html">scaledWidth</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span></div><div class="brief "><a data-name="-1403713266%2FProperties%2F1509904464" anchor-label="scaledWidth" id="-1403713266%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a><p class="paragraph">the scaled width of the source image</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="205602590%2FProperties%2F1509904464" anchor-label="sourceHeight" id="205602590%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a>
+        <div class="table-row" data-filterable-current=":PortableLib:dokkaHtmlPartial/main" data-filterable-set=":PortableLib:dokkaHtmlPartial/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="source-height.html"><span>source</span><wbr><span><span>Height</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="205602590%2FProperties%2F1509904464"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":PortableLib:dokkaHtmlPartial/main"><a data-name="205602590%2FProperties%2F1509904464" anchor-label="sourceHeight" id="205602590%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="source-height.html">sourceHeight</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span></div><div class="brief "><a data-name="205602590%2FProperties%2F1509904464" anchor-label="sourceHeight" id="205602590%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a><p class="paragraph">the height of the source image</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1016072463%2FProperties%2F1509904464" anchor-label="sourceWidth" id="1016072463%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a>
+        <div class="table-row" data-filterable-current=":PortableLib:dokkaHtmlPartial/main" data-filterable-set=":PortableLib:dokkaHtmlPartial/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="source-width.html"><span>source</span><wbr><span><span>Width</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1016072463%2FProperties%2F1509904464"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":PortableLib:dokkaHtmlPartial/main"><a data-name="1016072463%2FProperties%2F1509904464" anchor-label="sourceWidth" id="1016072463%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="source-width.html">sourceWidth</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span></div><div class="brief "><a data-name="1016072463%2FProperties%2F1509904464" anchor-label="sourceWidth" id="1016072463%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a><p class="paragraph">the width of the source image</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-435190040%2FProperties%2F1509904464" anchor-label="targetHeight" id="-435190040%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a>
+        <div class="table-row" data-filterable-current=":PortableLib:dokkaHtmlPartial/main" data-filterable-set=":PortableLib:dokkaHtmlPartial/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="target-height.html"><span>target</span><wbr><span><span>Height</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-435190040%2FProperties%2F1509904464"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":PortableLib:dokkaHtmlPartial/main"><a data-name="-435190040%2FProperties%2F1509904464" anchor-label="targetHeight" id="-435190040%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="target-height.html">targetHeight</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span></div><div class="brief "><a data-name="-435190040%2FProperties%2F1509904464" anchor-label="targetHeight" id="-435190040%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a><p class="paragraph">the height of the target image</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="995401733%2FProperties%2F1509904464" anchor-label="targetWidth" id="995401733%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a>
+        <div class="table-row" data-filterable-current=":PortableLib:dokkaHtmlPartial/main" data-filterable-set=":PortableLib:dokkaHtmlPartial/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="target-width.html"><span>target</span><wbr><span><span>Width</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="995401733%2FProperties%2F1509904464"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":PortableLib:dokkaHtmlPartial/main"><a data-name="995401733%2FProperties%2F1509904464" anchor-label="targetWidth" id="995401733%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="target-width.html">targetWidth</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">0</span></div><div class="brief "><a data-name="995401733%2FProperties%2F1509904464" anchor-label="targetWidth" id="995401733%2FProperties%2F1509904464" data-filterable-set=":PortableLib:dokkaHtmlPartial/main"></a><p class="paragraph">the width of the target image</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+
+</body></html>
+

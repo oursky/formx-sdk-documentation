@@ -1,0 +1,61 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXAPIExtractResponse.swift",
+      "line": 85,
+      "symbol": "FormXAutoExtractionItem.intValue(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXAPIExtractResponse.swift",
+      "line": 86,
+      "symbol": "FormXAutoExtractionItem.stringValue(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXAPIExtractResponse.swift",
+      "line": 87,
+      "symbol": "FormXAutoExtractionItem.purchaseInfoValue(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXAPIExtractResponse.swift",
+      "line": 88,
+      "symbol": "FormXAutoExtractionItem.unsupported",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXDelegate.swift",
+      "line": 11,
+      "symbol": "FormXDocumentDetectionDelegate.formXDidChangeState(state:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXDocumentRectangleDetector.swift",
+      "line": 16,
+      "symbol": "FormXDocumentRectangleDetector.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXDocumentRegion.swift",
+      "line": 35,
+      "symbol": "FormXDocumentRegion.toVertices(size:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXDocumentSegmentationDetector.swift",
+      "line": 11,
+      "symbol": "FormXDocumentSegmentationDetector.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX"
+}
