@@ -55,6 +55,27 @@
       "symbol": "FormXDocumentSegmentationDetector.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXStabilizer.swift",
+      "line": 3,
+      "symbol": "FormXRegion",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXStabilizer.swift",
+      "line": 13,
+      "symbol": "FormXRegion.toVertices(size:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXStabilizer.swift",
+      "line": 18,
+      "symbol": "FormXRegion.applying(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
     }
   ],
   "source_directory": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX"

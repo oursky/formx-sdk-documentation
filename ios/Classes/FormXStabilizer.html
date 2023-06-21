@@ -17,7 +17,7 @@
     <a title="FormXStabilizer Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">FormX 0.0.1 Docs</a> (91% documented)</p>
+        <p><a href="../index.html">FormX 0.0.1 Docs</a> (88% documented)</p>
         <div class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -40,6 +40,9 @@
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a href="../Classes/FormXAPIClient.html">FormXAPIClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FormXCameraView.html">FormXCameraView</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/FormXDocumentRectangleDetector.html">FormXDocumentRectangleDetector</a>
@@ -65,6 +68,12 @@
                 <a href="../Enums/FormXAutoExtractionItem.html">FormXAutoExtractionItem</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Enums/FormXCameraViewError.html">FormXCameraViewError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FormXCameraViewState.html">FormXCameraViewState</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Enums/FormXDefaultDocumentDetector.html">FormXDefaultDocumentDetector</a>
               </li>
               <li class="nav-group-task">
@@ -77,6 +86,9 @@
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a href="../Protocols/FormXBlurDectector.html">FormXBlurDectector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FormXCameraViewDelegate.html">FormXCameraViewDelegate</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Protocols/FormXDeskewer.html">FormXDeskewer</a>
@@ -120,7 +132,13 @@
                 <a href="../Structs/FormXAutoExtractionStringItem.html">FormXAutoExtractionStringItem</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Structs.html#/FormXCameraViewConfiguration">FormXCameraViewConfiguration</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Structs/FormXDocumentRegion.html">FormXDocumentRegion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FormXRegion.html">FormXRegion</a>
               </li>
             </ul>
           </li>
@@ -258,9 +276,9 @@ inform the caller that it is ready to capture the image.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:5FormX0A11XStabilizerC23readyToCaptureThresholdSdvp"></a>
-                    <a name="//apple_ref/swift/Property/readyToCaptureThreshold" class="dashAnchor"></a>
-                    <a class="token" href="#/s:5FormX0A11XStabilizerC23readyToCaptureThresholdSdvp">readyToCaptureThreshold</a>
+                    <a name="/s:5FormX0A11XStabilizerC18stateChangeTimeoutSdvp"></a>
+                    <a name="//apple_ref/swift/Property/stateChangeTimeout" class="dashAnchor"></a>
+                    <a class="token" href="#/s:5FormX0A11XStabilizerC18stateChangeTimeoutSdvp">stateChangeTimeout</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -268,14 +286,14 @@ inform the caller that it is ready to capture the image.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The threshold to determine if the region is ready to capture in time(ms)</p>
+                        <p>The minimum time required to change stabilizer state (seconds)</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">readyToCaptureThreshold</span><span class="p">:</span> <span class="kt">Double</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">stateChangeTimeout</span><span class="p">:</span> <span class="kt">Double</span></code></pre>
 
                         </div>
                       </div>
@@ -415,7 +433,7 @@ the stabilizer and calculcate the smoothed region.</p>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2023 <a class="link" href="https://github.com/oursky/formx-mobile-sdk" target="_blank" rel="external noopener">FormX</a>. All rights reserved. (Last updated: 2023-06-16)</p>
+          <p>&copy; 2023 <a class="link" href="https://github.com/oursky/formx-mobile-sdk" target="_blank" rel="external noopener">FormX</a>. All rights reserved. (Last updated: 2023-06-21)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
