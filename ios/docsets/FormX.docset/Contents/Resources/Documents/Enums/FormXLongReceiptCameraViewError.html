@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>FormXCameraViewDelegate Protocol Reference</title>
+    <title>FormXLongReceiptCameraViewError Enumeration Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -13,8 +13,8 @@
     <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
-    <a name="//apple_ref/swift/Protocol/FormXCameraViewDelegate" class="dashAnchor"></a>
-    <a title="FormXCameraViewDelegate Protocol Reference"></a>
+    <a name="//apple_ref/swift/Enum/FormXLongReceiptCameraViewError" class="dashAnchor"></a>
+    <a title="FormXLongReceiptCameraViewError Enumeration Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">FormX 0.0.1 Docs</a> (57% documented)</p>
@@ -29,7 +29,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">FormX Reference</a>
         <img id="carat" src="../img/carat.png" alt=""/>
-        FormXCameraViewDelegate Protocol Reference
+        FormXLongReceiptCameraViewError Enumeration Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -185,11 +185,11 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>FormXCameraViewDelegate</h1>
+            <h1>FormXLongReceiptCameraViewError</h1>
               <div class="declaration">
                 <div class="language">
                   
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">FormXCameraViewDelegate</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">FormXLongReceiptCameraViewError</span> <span class="p">:</span> <span class="kt">Error</span></code></pre>
 
                 </div>
               </div>
@@ -202,9 +202,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:5FormX0A19XCameraViewDelegateP04formbC010didCaptureySaySo10CGImageRefaG_tF"></a>
-                    <a name="//apple_ref/swift/Method/formXCameraView(didCapture:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:5FormX0A19XCameraViewDelegateP04formbC010didCaptureySaySo10CGImageRefaG_tF">formXCameraView(didCapture:<wbr>)</a>
+                    <a name="/s:5FormX0A27XLongReceiptCameraViewErrorO16setupDeviceInputyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/setupDeviceInput" class="dashAnchor"></a>
+                    <a class="token" href="#/s:5FormX0A27XLongReceiptCameraViewErrorO16setupDeviceInputyA2CmF">setupDeviceInput</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -219,7 +219,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">formXCameraView</span><span class="p">(</span><span class="n">didCapture</span> <span class="nv">images</span><span class="p">:</span> <span class="p">[</span><span class="kt">CGImage</span><span class="p">])</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">setupDeviceInput</span></code></pre>
 
                         </div>
                       </div>
@@ -229,9 +229,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:5FormX0A19XCameraViewDelegateP04formbC014didChangeStateyAA0abC0C_tF"></a>
-                    <a name="//apple_ref/swift/Method/formXCameraView(didChangeState:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:5FormX0A19XCameraViewDelegateP04formbC014didChangeStateyAA0abC0C_tF">formXCameraView(didChangeState:<wbr>)</a>
+                    <a name="/s:5FormX0A27XLongReceiptCameraViewErrorO13captureFailedyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/captureFailed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:5FormX0A27XLongReceiptCameraViewErrorO13captureFailedyA2CmF">captureFailed</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -246,61 +246,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">formXCameraView</span><span class="p">(</span><span class="n">didChangeState</span> <span class="nv">view</span><span class="p">:</span> <span class="kt"><a href="../Classes/FormXCameraView.html">FormXCameraView</a></span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:5FormX0A19XCameraViewDelegateP04formbC09didFailedys5Error_p_tF"></a>
-                    <a name="//apple_ref/swift/Method/formXCameraView(didFailed:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:5FormX0A19XCameraViewDelegateP04formbC09didFailedys5Error_p_tF">formXCameraView(didFailed:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">formXCameraView</span><span class="p">(</span><span class="n">didFailed</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:5FormX0A19XCameraViewDelegateP04formbC015didRequestCloseyAA0abC0C_tF"></a>
-                    <a name="//apple_ref/swift/Method/formXCameraView(didRequestClose:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:5FormX0A19XCameraViewDelegateP04formbC015didRequestCloseyAA0abC0C_tF">formXCameraView(didRequestClose:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">formXCameraView</span><span class="p">(</span><span class="n">didRequestClose</span> <span class="nv">view</span><span class="p">:</span> <span class="kt"><a href="../Classes/FormXCameraView.html">FormXCameraView</a></span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">captureFailed</span></code></pre>
 
                         </div>
                       </div>
