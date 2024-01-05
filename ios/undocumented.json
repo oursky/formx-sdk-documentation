@@ -310,7 +310,7 @@
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXCameraView.swift",
-      "line": 448,
+      "line": 453,
       "symbol": "FormXCameraView.capture()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
