@@ -282,49 +282,56 @@
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXCameraView.swift",
-      "line": 128,
+      "line": 98,
+      "symbol": "FormXCameraView.isCloseButtonHidden",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXCameraView.swift",
+      "line": 133,
       "symbol": "FormXCameraView.init(configuration:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXCameraView.swift",
-      "line": 206,
+      "line": 211,
       "symbol": "FormXCameraView.pickerDidPick(image:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXCameraView.swift",
-      "line": 213,
+      "line": 218,
       "symbol": "FormXCameraView.pickerViewWillDisappear()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXCameraView.swift",
-      "line": 221,
+      "line": 226,
       "symbol": "FormXCameraView.layoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXCameraView.swift",
-      "line": 228,
+      "line": 233,
       "symbol": "FormXCameraView.start()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXCameraView.swift",
-      "line": 248,
+      "line": 253,
       "symbol": "FormXCameraView.stop()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXCameraView.swift",
-      "line": 464,
+      "line": 469,
       "symbol": "FormXCameraView.capture()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -471,70 +478,77 @@
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXLongReceiptCameraView.swift",
-      "line": 80,
+      "line": 65,
+      "symbol": "FormXLongReceiptCameraView.isCloseButtonHidden",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXLongReceiptCameraView.swift",
+      "line": 85,
       "symbol": "FormXLongReceiptCameraView.isCapturing",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXLongReceiptCameraView.swift",
-      "line": 105,
+      "line": 110,
       "symbol": "FormXLongReceiptCameraView.init(configuration:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXLongReceiptCameraView.swift",
-      "line": 200,
+      "line": 205,
       "symbol": "FormXLongReceiptCameraView.pickerDidPick(image:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXLongReceiptCameraView.swift",
-      "line": 207,
+      "line": 212,
       "symbol": "FormXLongReceiptCameraView.pickerViewWillDisappear()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXLongReceiptCameraView.swift",
-      "line": 211,
+      "line": 216,
       "symbol": "FormXLongReceiptCameraView.layoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXLongReceiptCameraView.swift",
-      "line": 228,
+      "line": 233,
       "symbol": "FormXLongReceiptCameraView.start()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXLongReceiptCameraView.swift",
-      "line": 247,
+      "line": 252,
       "symbol": "FormXLongReceiptCameraView.stop()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXLongReceiptCameraView.swift",
-      "line": 418,
+      "line": 423,
       "symbol": "FormXLongReceiptCameraView.capture()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXLongReceiptCameraView.swift",
-      "line": 435,
+      "line": 440,
       "symbol": "FormXLongReceiptCameraView.stopCapture()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXLongReceiptCameraView.swift",
-      "line": 706,
+      "line": 711,
       "symbol": "estimateOutputSize(vertices:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
