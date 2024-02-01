@@ -17,7 +17,7 @@
     <a title="Structures  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html">FormX 0.0.1 Docs</a> (55% documented)</p>
+        <p><a href="index.html">FormX 0.0.1 Docs</a> (51% documented)</p>
         <div class="header-right">
           <form role="search" action="search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -65,10 +65,10 @@
             <a href="Enums.html">Enumerations</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Enums/FormXAPIClientError.html">FormXAPIClientError</a>
+                <a href="Enums/ExtractDocumentResult.html">ExtractDocumentResult</a>
               </li>
               <li class="nav-group-task">
-                <a href="Enums/FormXAutoExtractionItem.html">FormXAutoExtractionItem</a>
+                <a href="Enums/FormXAPIClientError.html">FormXAPIClientError</a>
               </li>
               <li class="nav-group-task">
                 <a href="Enums/FormXCameraMode.html">FormXCameraMode</a>
@@ -78,6 +78,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="Enums/FormXCameraViewState.html">FormXCameraViewState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/FormXDataValue.html">FormXDataValue</a>
               </li>
               <li class="nav-group-task">
                 <a href="Enums/FormXDefaultDocumentDetector.html">FormXDefaultDocumentDetector</a>
@@ -128,6 +131,24 @@
             <a href="Structs.html">Structures</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
+                <a href="Structs/DecodingValue.html">DecodingValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ExtractDocument.html">ExtractDocument</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ExtractDocumentError.html">ExtractDocumentError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ExtractDocumentError/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ExtractDocumentMetaData.html">ExtractDocumentMetaData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ExtractMetaData.html">ExtractMetaData</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Structs/FormXAPIDetectDocumentsErrorResponse.html">FormXAPIDetectDocumentsErrorResponse</a>
               </li>
               <li class="nav-group-task">
@@ -152,19 +173,10 @@
                 <a href="Structs/FormXAPIExtractResult.html">FormXAPIExtractResult</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/FormXAutoExtractionIntItem.html">FormXAutoExtractionIntItem</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/FormXAutoExtractionPurchaseInfoItem.html">FormXAutoExtractionPurchaseInfoItem</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/FormXAutoExtractionPurchaseInfoValueItem.html">FormXAutoExtractionPurchaseInfoValueItem</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/FormXAutoExtractionStringItem.html">FormXAutoExtractionStringItem</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="Structs/FormXCameraViewConfiguration.html">FormXCameraViewConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/FormXData.html">FormXData</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/FormXDetectedDocumentRegion.html">FormXDetectedDocumentRegion</a>
@@ -174,6 +186,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="Structs/FormXLongReceiptCameraViewConfiguration.html">FormXLongReceiptCameraViewConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/FormXProductValue.html">FormXProductValue</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/FormXRegion.html">FormXRegion</a>
@@ -335,9 +350,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:5FormX0A36XAutoExtractionPurchaseInfoValueItemV"></a>
-                    <a name="//apple_ref/swift/Struct/FormXAutoExtractionPurchaseInfoValueItem" class="dashAnchor"></a>
-                    <a class="token" href="#/s:5FormX0A36XAutoExtractionPurchaseInfoValueItemV">FormXAutoExtractionPurchaseInfoValueItem</a>
+                    <a name="/s:5FormX0A13XProductValueV"></a>
+                    <a name="//apple_ref/swift/Struct/FormXProductValue" class="dashAnchor"></a>
+                    <a class="token" href="#/s:5FormX0A13XProductValueV">FormXProductValue</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -345,16 +360,15 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>FormXAutoExtractionPurchaseInfoValueItem is the auto extracted item with 
-purchase info value returned by the <code>FormXAPIClient.extract(data:completion:)</code> .</p>
+                        <p>FormXProductValue is purchase info value returned by the <code>FormXAPIClient.extract(data:completion:)</code> .</p>
 
-                        <a href="Structs/FormXAutoExtractionPurchaseInfoValueItem.html" class="slightly-smaller">See more</a>
+                        <a href="Structs/FormXProductValue.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">FormXAutoExtractionPurchaseInfoValueItem</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">FormXProductValue</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
 
                         </div>
                       </div>
@@ -364,9 +378,9 @@ purchase info value returned by the <code>FormXAPIClient.extract(data:completion
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:5FormX0A31XAutoExtractionPurchaseInfoItemV"></a>
-                    <a name="//apple_ref/swift/Struct/FormXAutoExtractionPurchaseInfoItem" class="dashAnchor"></a>
-                    <a class="token" href="#/s:5FormX0A31XAutoExtractionPurchaseInfoItemV">FormXAutoExtractionPurchaseInfoItem</a>
+                    <a name="/s:5FormX13DecodingValueV"></a>
+                    <a name="//apple_ref/swift/Struct/DecodingValue" class="dashAnchor"></a>
+                    <a class="token" href="#/s:5FormX13DecodingValueV">DecodingValue</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -374,16 +388,15 @@ purchase info value returned by the <code>FormXAPIClient.extract(data:completion
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>FormXAutoExtractionPurchaseInfoItem is the auto extracted item with purchase 
-info value returned by the <code>FormXAPIClient.extract(data:completion:)</code> .</p>
+                        <p>DecodingValue is a <code>SingleValueDecodingContainer</code> value holder</p>
 
-                        <a href="Structs/FormXAutoExtractionPurchaseInfoItem.html" class="slightly-smaller">See more</a>
+                        <a href="Structs/DecodingValue.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">FormXAutoExtractionPurchaseInfoItem</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DecodingValue</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
 
                         </div>
                       </div>
@@ -393,9 +406,9 @@ info value returned by the <code>FormXAPIClient.extract(data:completion:)</code>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:5FormX0A22XAutoExtractionIntItemV"></a>
-                    <a name="//apple_ref/swift/Struct/FormXAutoExtractionIntItem" class="dashAnchor"></a>
-                    <a class="token" href="#/s:5FormX0A22XAutoExtractionIntItemV">FormXAutoExtractionIntItem</a>
+                    <a name="/s:5FormX15ExtractMetaDataV"></a>
+                    <a name="//apple_ref/swift/Struct/ExtractMetaData" class="dashAnchor"></a>
+                    <a class="token" href="#/s:5FormX15ExtractMetaDataV">ExtractMetaData</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -403,16 +416,16 @@ info value returned by the <code>FormXAPIClient.extract(data:completion:)</code>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>FormXAutoExtractionIntItem is the auto extracted item with int value returned 
-by the <code>FormXAPIClient.extract(data:completion:)</code> .</p>
+                        <p>ExtractMetaData contains api meta data returned by the
+returned by the <code>FormXAPIClient.extract(data:completion:)</code>.</p>
 
-                        <a href="Structs/FormXAutoExtractionIntItem.html" class="slightly-smaller">See more</a>
+                        <a href="Structs/ExtractMetaData.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">FormXAutoExtractionIntItem</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ExtractMetaData</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
 
                         </div>
                       </div>
@@ -422,9 +435,9 @@ by the <code>FormXAPIClient.extract(data:completion:)</code> .</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:5FormX0A25XAutoExtractionStringItemV"></a>
-                    <a name="//apple_ref/swift/Struct/FormXAutoExtractionStringItem" class="dashAnchor"></a>
-                    <a class="token" href="#/s:5FormX0A25XAutoExtractionStringItemV">FormXAutoExtractionStringItem</a>
+                    <a name="/s:5FormX23ExtractDocumentMetaDataV"></a>
+                    <a name="//apple_ref/swift/Struct/ExtractDocumentMetaData" class="dashAnchor"></a>
+                    <a class="token" href="#/s:5FormX23ExtractDocumentMetaDataV">ExtractDocumentMetaData</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -432,16 +445,101 @@ by the <code>FormXAPIClient.extract(data:completion:)</code> .</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>FormXAutoExtractionStringItem is the auto extracted item with string value returned 
-by the <code>FormXAPIClient.extract(data:completion:)</code>.</p>
+                        <p>ExtractMetaData contains document meta data returned by the the
+returned by the <code>FormXAPIClient.extract(data:completion:)</code>.</p>
 
-                        <a href="Structs/FormXAutoExtractionStringItem.html" class="slightly-smaller">See more</a>
+                        <a href="Structs/ExtractDocumentMetaData.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">FormXAutoExtractionStringItem</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ExtractDocumentMetaData</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:5FormX0A5XDataV"></a>
+                    <a name="//apple_ref/swift/Struct/FormXData" class="dashAnchor"></a>
+                    <a class="token" href="#/s:5FormX0A5XDataV">FormXData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>FormXData represent a extraction field returned by the `FormXAPIClient.extract(data:completion:)</p>
+
+                        <a href="Structs/FormXData.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">FormXData</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:5FormX15ExtractDocumentV"></a>
+                    <a name="//apple_ref/swift/Struct/ExtractDocument" class="dashAnchor"></a>
+                    <a class="token" href="#/s:5FormX15ExtractDocumentV">ExtractDocument</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>ExtractDocument contains single document result returned by the
+returned by the `FormXAPIClient.extract(data:completion:)</p>
+
+                        <a href="Structs/ExtractDocument.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ExtractDocument</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:5FormX20ExtractDocumentErrorV"></a>
+                    <a name="//apple_ref/swift/Struct/ExtractDocumentError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:5FormX20ExtractDocumentErrorV">ExtractDocumentError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/ExtractDocumentError.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ExtractDocumentError</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
 
                         </div>
                       </div>
@@ -622,7 +720,7 @@ Coordinates are normalized within [0, 1) range, with the origin at the bottom-le
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2024 <a class="link" href="https://github.com/oursky/formx-mobile-sdk" target="_blank" rel="external noopener">FormX</a>. All rights reserved. (Last updated: 2024-01-30)</p>
+          <p>&copy; 2024 <a class="link" href="https://github.com/oursky/formx-mobile-sdk" target="_blank" rel="external noopener">FormX</a>. All rights reserved. (Last updated: 2024-02-01)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
