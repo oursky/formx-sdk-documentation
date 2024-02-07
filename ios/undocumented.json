@@ -772,7 +772,7 @@
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXLongReceiptCameraView.swift",
-      "line": 711,
+      "line": 712,
       "symbol": "estimateOutputSize(vertices:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
