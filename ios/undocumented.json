@@ -297,7 +297,7 @@
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXCameraModes.swift",
       "line": 15,
-      "symbol": "FormXCameraMode.box(type:isForcedLandscape:)",
+      "symbol": "FormXCameraMode.box(type:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
@@ -569,42 +569,42 @@
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXCameraView.swift",
-      "line": 227,
+      "line": 226,
       "symbol": "FormXCameraView.pickerDidPick(image:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXCameraView.swift",
-      "line": 234,
+      "line": 233,
       "symbol": "FormXCameraView.pickerViewWillDisappear()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXCameraView.swift",
-      "line": 242,
+      "line": 241,
       "symbol": "FormXCameraView.layoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXCameraView.swift",
-      "line": 249,
+      "line": 248,
       "symbol": "FormXCameraView.start()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXCameraView.swift",
-      "line": 269,
+      "line": 268,
       "symbol": "FormXCameraView.stop()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXCameraView.swift",
-      "line": 504,
+      "line": 501,
       "symbol": "FormXCameraView.capture()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
