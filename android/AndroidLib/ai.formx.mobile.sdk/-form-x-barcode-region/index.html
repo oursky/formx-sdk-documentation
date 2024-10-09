@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>FormXBarcodeRegion</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../";</script>    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+<a href="../../../index.html">
+<span>FormX Mobile SDK</span>            </a>    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageids="AndroidLib::ai.formx.mobile.sdk/FormXBarcodeRegion///PointingToDeclaration//-716796259">
+  <div class="breadcrumbs"><a href="../../index.html">AndroidLib</a><span class="delimiter">/</span><a href="../index.html">ai.formx.mobile.sdk</a><span class="delimiter">/</span><span class="current">FormXBarcodeRegion</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Form</span><wbr><span>XBarcode</span><wbr><span><span>Region</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":AndroidLib:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">FormXBarcodeRegion</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>image<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Bitmap.html">Bitmap</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>topLeft<span class="token operator">: </span><a href="../../../AndroidLib/ai.formx.mobile.sdk/-form-x-point-f/index.html">FormXPointF</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>topRight<span class="token operator">: </span><a href="../../../AndroidLib/ai.formx.mobile.sdk/-form-x-point-f/index.html">FormXPointF</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>bottomRight<span class="token operator">: </span><a href="../../../AndroidLib/ai.formx.mobile.sdk/-form-x-point-f/index.html">FormXPointF</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>bottomLeft<span class="token operator">: </span><a href="../../../AndroidLib/ai.formx.mobile.sdk/-form-x-point-f/index.html">FormXPointF</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>boundingBox<span class="token operator">: </span><a href="../../../AndroidLib/ai.formx.mobile.sdk/-form-x-rect-f/index.html">FormXRectF</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>data<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>type<span class="token operator">: </span><a href="../-form-x-barcode-type/index.html">FormXBarcodeType</a></span></span><span class="token punctuation">)</span></div><p class="paragraph">Represents a region containing a barcode in an image.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+    <div class="tabs-section-body">
+      <h2 class="tabbedcontent">Constructors</h2>
+      <div class="table" data-togglable="Constructors"><a data-name="-861838969%2FConstructors%2F-716796259" anchor-label="FormXBarcodeRegion" id="-861838969%2FConstructors%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a>
+        <div class="table-row" data-filterable-current=":AndroidLib:dokkaHtmlPartial/release" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release">
+          <div class="main-subrow keyValue TabbedContent">
+            <div class=""><span class="inline-flex">
+                <div><a href="-form-x-barcode-region.html"><span>Form</span><wbr><span>XBarcode</span><wbr><span><span>Region</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-861838969%2FConstructors%2F-716796259"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":AndroidLib:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-form-x-barcode-region.html"><span class="token function">FormXBarcodeRegion</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">image<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Bitmap.html">Bitmap</a><span class="token punctuation">, </span></span><span class="parameter ">topLeft<span class="token operator">: </span><a href="../../../AndroidLib/ai.formx.mobile.sdk/-form-x-point-f/index.html">FormXPointF</a><span class="token punctuation">, </span></span><span class="parameter ">topRight<span class="token operator">: </span><a href="../../../AndroidLib/ai.formx.mobile.sdk/-form-x-point-f/index.html">FormXPointF</a><span class="token punctuation">, </span></span><span class="parameter ">bottomRight<span class="token operator">: </span><a href="../../../AndroidLib/ai.formx.mobile.sdk/-form-x-point-f/index.html">FormXPointF</a><span class="token punctuation">, </span></span><span class="parameter ">bottomLeft<span class="token operator">: </span><a href="../../../AndroidLib/ai.formx.mobile.sdk/-form-x-point-f/index.html">FormXPointF</a><span class="token punctuation">, </span></span><span class="parameter ">boundingBox<span class="token operator">: </span><a href="../../../AndroidLib/ai.formx.mobile.sdk/-form-x-rect-f/index.html">FormXRectF</a><span class="token punctuation">, </span></span><span class="parameter ">data<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">type<span class="token operator">: </span><a href="../-form-x-barcode-type/index.html">FormXBarcodeType</a></span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="-114397661%2FFunctions%2F-716796259" anchor-label="toFormXDocumentRegion" id="-114397661%2FFunctions%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a>
+        <div class="table-row" data-filterable-current=":AndroidLib:dokkaHtmlPartial/release" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="to-form-x-document-region.html"><span>to</span><wbr><span>Form</span><wbr><span>XDocument</span><wbr><span><span>Region</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-114397661%2FFunctions%2F-716796259"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":AndroidLib:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="to-form-x-document-region.html"><span class="token function">toFormXDocumentRegion</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../AndroidLib/ai.formx.mobile.sdk/-form-x-document-region/index.html">FormXDocumentRegion</a></div><div class="brief "><p class="paragraph">Converts the barcode region to a FormXDocumentRegion.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Properties</h2>
+      <div class="table" data-togglable="Properties"><a data-name="680832989%2FProperties%2F-716796259" anchor-label="bottomLeft" id="680832989%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a>
+        <div class="table-row" data-filterable-current=":AndroidLib:dokkaHtmlPartial/release" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="bottom-left.html"><span>bottom</span><wbr><span><span>Left</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="680832989%2FProperties%2F-716796259"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":AndroidLib:dokkaHtmlPartial/release"><a data-name="680832989%2FProperties%2F-716796259" anchor-label="bottomLeft" id="680832989%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="bottom-left.html">bottomLeft</a><span class="token operator">: </span><a href="../../../AndroidLib/ai.formx.mobile.sdk/-form-x-point-f/index.html">FormXPointF</a></div><div class="brief "><a data-name="680832989%2FProperties%2F-716796259" anchor-label="bottomLeft" id="680832989%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a><p class="paragraph">The bottom-left corner of the barcode region.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="864394170%2FProperties%2F-716796259" anchor-label="bottomRight" id="864394170%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a>
+        <div class="table-row" data-filterable-current=":AndroidLib:dokkaHtmlPartial/release" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="bottom-right.html"><span>bottom</span><wbr><span><span>Right</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="864394170%2FProperties%2F-716796259"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":AndroidLib:dokkaHtmlPartial/release"><a data-name="864394170%2FProperties%2F-716796259" anchor-label="bottomRight" id="864394170%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="bottom-right.html">bottomRight</a><span class="token operator">: </span><a href="../../../AndroidLib/ai.formx.mobile.sdk/-form-x-point-f/index.html">FormXPointF</a></div><div class="brief "><a data-name="864394170%2FProperties%2F-716796259" anchor-label="bottomRight" id="864394170%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a><p class="paragraph">The bottom-right corner of the barcode region.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-628439644%2FProperties%2F-716796259" anchor-label="boundingBox" id="-628439644%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a>
+        <div class="table-row" data-filterable-current=":AndroidLib:dokkaHtmlPartial/release" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="bounding-box.html"><span>bounding</span><wbr><span><span>Box</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-628439644%2FProperties%2F-716796259"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":AndroidLib:dokkaHtmlPartial/release"><a data-name="-628439644%2FProperties%2F-716796259" anchor-label="boundingBox" id="-628439644%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="bounding-box.html">boundingBox</a><span class="token operator">: </span><a href="../../../AndroidLib/ai.formx.mobile.sdk/-form-x-rect-f/index.html">FormXRectF</a></div><div class="brief "><a data-name="-628439644%2FProperties%2F-716796259" anchor-label="boundingBox" id="-628439644%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a><p class="paragraph">The bounding box of the barcode region.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1619669381%2FProperties%2F-716796259" anchor-label="data" id="1619669381%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a>
+        <div class="table-row" data-filterable-current=":AndroidLib:dokkaHtmlPartial/release" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="data.html"><span><span>data</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1619669381%2FProperties%2F-716796259"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":AndroidLib:dokkaHtmlPartial/release"><a data-name="1619669381%2FProperties%2F-716796259" anchor-label="data" id="1619669381%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="data.html">data</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><a data-name="1619669381%2FProperties%2F-716796259" anchor-label="data" id="1619669381%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a><p class="paragraph">The payload data contained in the barcode.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1605731024%2FProperties%2F-716796259" anchor-label="image" id="1605731024%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a>
+        <div class="table-row" data-filterable-current=":AndroidLib:dokkaHtmlPartial/release" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="image.html"><span><span>image</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1605731024%2FProperties%2F-716796259"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":AndroidLib:dokkaHtmlPartial/release"><a data-name="1605731024%2FProperties%2F-716796259" anchor-label="image" id="1605731024%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="image.html">image</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Bitmap.html">Bitmap</a></div><div class="brief "><a data-name="1605731024%2FProperties%2F-716796259" anchor-label="image" id="1605731024%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a><p class="paragraph">The cropped image of the barcode region.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1089100593%2FProperties%2F-716796259" anchor-label="topLeft" id="-1089100593%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a>
+        <div class="table-row" data-filterable-current=":AndroidLib:dokkaHtmlPartial/release" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="top-left.html"><span>top</span><wbr><span><span>Left</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1089100593%2FProperties%2F-716796259"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":AndroidLib:dokkaHtmlPartial/release"><a data-name="-1089100593%2FProperties%2F-716796259" anchor-label="topLeft" id="-1089100593%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="top-left.html">topLeft</a><span class="token operator">: </span><a href="../../../AndroidLib/ai.formx.mobile.sdk/-form-x-point-f/index.html">FormXPointF</a></div><div class="brief "><a data-name="-1089100593%2FProperties%2F-716796259" anchor-label="topLeft" id="-1089100593%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a><p class="paragraph">The top-left corner of the barcode region.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1831027976%2FProperties%2F-716796259" anchor-label="topRight" id="1831027976%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a>
+        <div class="table-row" data-filterable-current=":AndroidLib:dokkaHtmlPartial/release" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="top-right.html"><span>top</span><wbr><span><span>Right</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1831027976%2FProperties%2F-716796259"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":AndroidLib:dokkaHtmlPartial/release"><a data-name="1831027976%2FProperties%2F-716796259" anchor-label="topRight" id="1831027976%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="top-right.html">topRight</a><span class="token operator">: </span><a href="../../../AndroidLib/ai.formx.mobile.sdk/-form-x-point-f/index.html">FormXPointF</a></div><div class="brief "><a data-name="1831027976%2FProperties%2F-716796259" anchor-label="topRight" id="1831027976%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a><p class="paragraph">The top-right corner of the barcode region.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1421724683%2FProperties%2F-716796259" anchor-label="type" id="-1421724683%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a>
+        <div class="table-row" data-filterable-current=":AndroidLib:dokkaHtmlPartial/release" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="type.html"><span><span>type</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1421724683%2FProperties%2F-716796259"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":AndroidLib:dokkaHtmlPartial/release"><a data-name="-1421724683%2FProperties%2F-716796259" anchor-label="type" id="-1421724683%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="type.html">type</a><span class="token operator">: </span><a href="../-form-x-barcode-type/index.html">FormXBarcodeType</a></div><div class="brief "><a data-name="-1421724683%2FProperties%2F-716796259" anchor-label="type" id="-1421724683%2FProperties%2F-716796259" data-filterable-set=":AndroidLib:dokkaHtmlPartial/release"></a><p class="paragraph">The type of the detected barcode.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+
+</body></html>
+
