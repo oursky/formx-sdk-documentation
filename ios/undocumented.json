@@ -255,21 +255,21 @@
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXCameraModes.swift",
       "line": 7,
-      "symbol": "FormXCameraBoxModeBoxType",
+      "symbol": "FormXCameraModeBoxType",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXCameraModes.swift",
       "line": 8,
-      "symbol": "FormXCameraBoxModeBoxType.id",
+      "symbol": "FormXCameraModeBoxType.id",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/runner/work/formx-mobile-sdk/formx-mobile-sdk/ios/sdk/FormX/Sources/FormX/FormXCameraModes.swift",
       "line": 9,
-      "symbol": "FormXCameraBoxModeBoxType.passport",
+      "symbol": "FormXCameraModeBoxType.passport",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
