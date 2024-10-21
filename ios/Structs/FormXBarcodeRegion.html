@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FormXBarcodeRegion Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/FormXBarcodeRegion" class="dashAnchor"></a>
+    <a title="FormXBarcodeRegion Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">FormX 0.0.1 Docs</a> (50% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">FormX Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        FormXBarcodeRegion Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FormXAPIClient.html">FormXAPIClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FormXBarcodeVisionDetector.html">FormXBarcodeVisionDetector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FormXCameraView.html">FormXCameraView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FormXDocumentRectangleDetector.html">FormXDocumentRectangleDetector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FormXDocumentRegionSizeFilter.html">FormXDocumentRegionSizeFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FormXDocumentSegmentationDetector.html">FormXDocumentSegmentationDetector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FormXLongReceiptCameraView.html">FormXLongReceiptCameraView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FormXStabilizer.html">FormXStabilizer</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ExtractDocumentResult.html">ExtractDocumentResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FormXAPIClientError.html">FormXAPIClientError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FormXBarcodeType.html">FormXBarcodeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FormXCameraMode.html">FormXCameraMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FormXCameraModeBoxType.html">FormXCameraModeBoxType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FormXCameraStateIndicatorState.html">FormXCameraStateIndicatorState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FormXCameraViewError.html">FormXCameraViewError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FormXDataValue.html">FormXDataValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FormXDefaultBarcodeDetector.html">FormXDefaultBarcodeDetector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FormXDefaultDocumentDetector.html">FormXDefaultDocumentDetector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FormXLongReceiptCameraViewError.html">FormXLongReceiptCameraViewError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FormXStabilizerState.html">FormXStabilizerState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:5FormX18estimateOutputSize8verticesSo6CGSizeVSaySo7CGPointVG_tF">estimateOutputSize(vertices:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/FormXBarcodeDetector.html">FormXBarcodeDetector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FormXBlurDectector.html">FormXBlurDectector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FormXCameraViewDelegate.html">FormXCameraViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FormXDeskewer.html">FormXDeskewer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FormXDocumentDetectionDelegate.html">FormXDocumentDetectionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FormXDocumentDetector.html">FormXDocumentDetector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FormXDocumentRegionFilter.html">FormXDocumentRegionFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FormXLongReceiptCameraViewDelegate.html">FormXLongReceiptCameraViewDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/DecodingValue.html">DecodingValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ExtractDocument.html">ExtractDocument</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ExtractDocumentError.html">ExtractDocumentError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ExtractDocumentError/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ExtractDocumentMetaData.html">ExtractDocumentMetaData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ExtractMetaData.html">ExtractMetaData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FormXAPIDetectDocumentsErrorResponse.html">FormXAPIDetectDocumentsErrorResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FormXAPIDetectDocumentsErrorResponse/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FormXAPIDetectDocumentsResponse.html">FormXAPIDetectDocumentsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FormXAPIDetectDocumentsResult.html">FormXAPIDetectDocumentsResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FormXAPIExtractErrorResponse.html">FormXAPIExtractErrorResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FormXAPIExtractErrorResponse/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FormXAPIExtractResponse.html">FormXAPIExtractResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FormXAPIExtractResult.html">FormXAPIExtractResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FormXBarcodeRegion.html">FormXBarcodeRegion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FormXCameraViewConfiguration.html">FormXCameraViewConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FormXData.html">FormXData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FormXDetectedDocumentRegion.html">FormXDetectedDocumentRegion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FormXDocumentRegion.html">FormXDocumentRegion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FormXLongReceiptCameraViewConfiguration.html">FormXLongReceiptCameraViewConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FormXProductValue.html">FormXProductValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FormXRegion.html">FormXRegion</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>FormXBarcodeRegion</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">FormXBarcodeRegion</span></code></pre>
+
+                </div>
+              </div>
+            <p>A region containing barcode in a image.
+Coordinates are normalized within [0, 1) range, with the origin at the bottom-left corner of the image.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:5FormX0A14XBarcodeRegionV5imageSo7CIImageCvp"></a>
+                    <a name="//apple_ref/swift/Property/image" class="dashAnchor"></a>
+                    <a class="token" href="#/s:5FormX0A14XBarcodeRegionV5imageSo7CIImageCvp">image</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The containing image of the document region.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">image</span><span class="p">:</span> <span class="kt">CIImage</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:5FormX0A14XBarcodeRegionV11orientationSo26CGImagePropertyOrientationVvp"></a>
+                    <a name="//apple_ref/swift/Property/orientation" class="dashAnchor"></a>
+                    <a class="token" href="#/s:5FormX0A14XBarcodeRegionV11orientationSo26CGImagePropertyOrientationVvp">orientation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The orientation of the containing image.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">orientation</span><span class="p">:</span> <span class="kt">CGImagePropertyOrientation</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:5FormX0A14XBarcodeRegionV7topLeftSo7CGPointVvp"></a>
+                    <a name="//apple_ref/swift/Property/topLeft" class="dashAnchor"></a>
+                    <a class="token" href="#/s:5FormX0A14XBarcodeRegionV7topLeftSo7CGPointVvp">topLeft</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The top-left point of the document region.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">topLeft</span><span class="p">:</span> <span class="kt">CGPoint</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:5FormX0A14XBarcodeRegionV8topRightSo7CGPointVvp"></a>
+                    <a name="//apple_ref/swift/Property/topRight" class="dashAnchor"></a>
+                    <a class="token" href="#/s:5FormX0A14XBarcodeRegionV8topRightSo7CGPointVvp">topRight</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The top-right point of the document region.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">topRight</span><span class="p">:</span> <span class="kt">CGPoint</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:5FormX0A14XBarcodeRegionV10bottomLeftSo7CGPointVvp"></a>
+                    <a name="//apple_ref/swift/Property/bottomLeft" class="dashAnchor"></a>
+                    <a class="token" href="#/s:5FormX0A14XBarcodeRegionV10bottomLeftSo7CGPointVvp">bottomLeft</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The bottom-left point of the document region.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">bottomLeft</span><span class="p">:</span> <span class="kt">CGPoint</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:5FormX0A14XBarcodeRegionV11bottomRightSo7CGPointVvp"></a>
+                    <a name="//apple_ref/swift/Property/bottomRight" class="dashAnchor"></a>
+                    <a class="token" href="#/s:5FormX0A14XBarcodeRegionV11bottomRightSo7CGPointVvp">bottomRight</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The bottom-right point of the document region.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">bottomRight</span><span class="p">:</span> <span class="kt">CGPoint</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:5FormX0A14XBarcodeRegionV11boundingBoxSo6CGRectVvp"></a>
+                    <a name="//apple_ref/swift/Property/boundingBox" class="dashAnchor"></a>
+                    <a class="token" href="#/s:5FormX0A14XBarcodeRegionV11boundingBoxSo6CGRectVvp">boundingBox</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The bounding box of the document region.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">boundingBox</span><span class="p">:</span> <span class="kt">CGRect</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:5FormX0A14XBarcodeRegionV4typeAA0aB4TypeOvp"></a>
+                    <a name="//apple_ref/swift/Property/type" class="dashAnchor"></a>
+                    <a class="token" href="#/s:5FormX0A14XBarcodeRegionV4typeAA0aB4TypeOvp">type</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The type of the detected barcode</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">type</span><span class="p">:</span> <span class="kt"><a href="../Enums/FormXBarcodeType.html">FormXBarcodeType</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:5FormX0A14XBarcodeRegionV4dataSSvp"></a>
+                    <a name="//apple_ref/swift/Property/data" class="dashAnchor"></a>
+                    <a class="token" href="#/s:5FormX0A14XBarcodeRegionV4dataSSvp">data</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The payload data contained in the barcode</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2024 <a class="link" href="https://github.com/oursky/formx-mobile-sdk" target="_blank" rel="external noopener">FormX</a>. All rights reserved. (Last updated: 2024-10-21)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
